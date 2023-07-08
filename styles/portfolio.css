@@ -3,7 +3,9 @@ body{
 }
 nav {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center ;
+    margin: 0 200px;   
 }
 .nav-title{
 color: #181818;
@@ -12,8 +14,7 @@ font-weight: 800;
 }
 nav >ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center ;
+    
 } 
 nav li {
     list-style: none;
@@ -37,4 +38,16 @@ nav a{
     color: white;
     padding: 15px 35px ;
 
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+padding: 30px 30px 30px 150px ;
+display: flex;
+align-items: center;
+}
+.banner .pro-pic{
+    width: 500px;
+    
 }
